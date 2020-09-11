@@ -1,0 +1,60 @@
+.program-div{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    background-color: #EBD8D0;
+    display: block;
+    padding: 5%;   
+    
+}
+#headerProg {
+    font-size: 3rem;
+    font-weight: 700;
+    display: block;
+    margin:2% 0%;
+}
+#pProgram {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    width: 95%;  
+    text-align: justify;
+}
+#headerGroup{
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: block;
+    margin:2% 0%;
+}
+#headerSingl{
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: block;
+    margin:2% 0%;
+}
+ .list-group-item {
+    
+    width: 95%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+    letter-spacing: 0.05rem;
+}    
+label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+#modalBtn{
+    margin: 2% 0;
+    
+}
+ .btn{
+    font-weight: 500 !important;
+}
+ a:hover {
+    background-color: transparent;
+    text-decoration: none !important;
+    color: white;
+  }

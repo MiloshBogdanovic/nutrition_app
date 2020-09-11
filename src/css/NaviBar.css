@@ -1,0 +1,67 @@
+.header-wraper{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.nav-top{  
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+    background: transparent !important;
+    padding-top: 25px;
+    box-shadow: none;
+}
+
+ul {
+    display: inline-block;
+    position: absolute;
+    list-style-type: none;
+    overflow: hidden;
+    right: 0;
+    margin: 1%;
+  }
+
+  
+  li {
+    float: right;
+    padding: 0.5%;
+    margin: 1%;
+  }
+
+  
+  
+ 
+  
+  li :hover {
+    background-color: rgb(240, 248, 255, 0.1);
+    
+    color: white;
+  }
+
+  
+
+.icon  {
+  
+    width: 100px;
+    opacity: 0.8;
+}
+@media only screen and (max-width: 600px) {
+    .icon  {
+        width: 70px;
+        padding: 5%;
+        opacity: 0.8;
+    }
+    .socal-contact{
+        width: 50%;
+        margin-left: 70%;
+    }
+   ul{
+       width: 40%;
+       display: grid;
+   }
+    
+  }
