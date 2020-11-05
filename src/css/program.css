@@ -58,3 +58,30 @@ label{
     text-decoration: none !important;
     color: white;
   }
+  @media screen and (max-width: 740px){
+    #headerProg {
+        font-size: 2rem;
+        font-weight: 500;
+        display: block;
+        margin:2% 0%;
+    }
+    #pProgram {
+        font-size: 1.5rem;
+        font-weight: 300;
+        letter-spacing: normal;
+        width: 95%;  
+        text-align: justify;
+    }
+    #headerGroup{
+        font-size: 2rem;
+        font-weight: 500;
+        display: block;
+        margin:2% 0%;
+    }
+    #headerSingl{
+        font-size: 1.5rem;
+        font-weight: 400;
+        display: block;
+        margin:2% 0%;
+    }
+  }

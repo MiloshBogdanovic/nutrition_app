@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel  from 'react-bootstrap/Carousel';
-import imgSlideOne from '../../img/imgSlideOne.jpg';
-import imgSlideTwo from '../../img/imgSlideTwo.jpg';
-import imgSlideThree from '../../img/imgSlideThree.jpg';
+import picOne from '../../img/pdf/pic1.png';
+import picTwo from '../../img/pdf/pic2.png';
+import picThree from '../../img/pdf/pic3.png';
 import '../../css/slider.css'
 
 function Slider () {
@@ -11,7 +11,7 @@ function Slider () {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={imgSlideOne}
+      src={picOne}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -22,7 +22,7 @@ function Slider () {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={imgSlideTwo}
+      src={picTwo}
       alt="Third slide"
     />
 
@@ -34,7 +34,7 @@ function Slider () {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={imgSlideThree}
+      src={picThree}
       alt="Third slide"
     />
 

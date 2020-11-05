@@ -6,10 +6,10 @@ function Info (){
         <div className="info-div">
             
                 <h2 id="headerInfo">Our Mission</h2>
-                <p>
+                <p id="p-info">
                 We help people identify what a healthy lifestyle really is and assist them to cultivate
                 better eating habits and lead an active life. We also offer them the support they need 
-                tomaintain these changes for the long term
+                to maintain these changes for the long term.
                 </p>
            
         </div>

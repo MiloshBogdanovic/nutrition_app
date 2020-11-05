@@ -1,8 +1,27 @@
-.card-text{
-    font-size: 1.5em ;
-    font-weight: 100;
-    letter-spacing: 0.1rem;
+.jumbotron {
+    margin-top: 2rem;
 }
-.card-deck{
-    margin-top: 2%;
+.header-comment{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.comment-header{
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: block;
+    margin-left: 22.5% ;
+    padding-top: 2%;
+
+}
+.comment-wrap{
+font-family: 'Jost', sans-serif;
+}
+.p-testemonial{
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 740px){
+    .p-testemonial{
+        font-size: 1.25rem;
+        letter-spacing: normal;
+    }
 }

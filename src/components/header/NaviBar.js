@@ -15,9 +15,10 @@ function NaviBar () {
                 
                 <div className="socal-contact">
                     <ul>
-                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img  alt='logo FaceBook'  className="icon" src={FB} /></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img  alt='logo Instagram'  className="icon" src={IN} /></a></li>
-                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img  alt='logo Contact' className="icon" src={WU} /></a></li>
+                        <li><a href="https://www.facebook.com/search/top/?q=nutribalance-malta" target="_blank" rel="noopener noreferrer"><img  alt='logo FaceBook'  className="icon" src={FB} /></a></li>
+                        <li><a href="https://www.instagram.com/nutribalance.malta/?hl=en" target="_blank" rel="noopener noreferrer"><img  alt='logo Instagram' className="icon" src={WU} /></a></li>
+                        <li><a href="#contact-div" onClick={()=>{window.scrollTo(0, document.body.scrollHeight)}} ><img  alt='logo Contact'  className="icon" src={IN} /></a></li>
+                        
                     </ul>
                 </div>
         </nav>  

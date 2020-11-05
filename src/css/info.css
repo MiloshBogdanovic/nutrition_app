@@ -8,20 +8,39 @@
     display: block;
     padding: 5%;
   
-  
-    
 }
 #headerInfo {
-    font-size: 4rem;
-    font-weight: 800;
+    font-size: 3rem;
+    font-weight: 600;
     display: block;
 }
 
     
 
-p{
+#p-info{
     display: block;
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 0.4rem;
+}
+
+@media screen and (max-width: 740px){
+    #headerInfo {
+        font-size: 2.5rem;
+        font-weight: 500;
+        display: block;
+    }
+    #p-info{
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 300;
+        letter-spacing: normal;
+    }
+    .info-div{
+       
+        width: 100vw;
+        height: auto;
+       
+      
+    }
 }

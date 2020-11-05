@@ -102,18 +102,13 @@ export default class Forma extends React.Component {
   handleSubmit (event) {
 	event.preventDefault();
 	const template = {
-		from: this.state.name,
+		name: this.state.name,
 		email: this.state.email,
-		age: this.state.age,
-		activity: this.state.valueActivity, 
-		goal: this.state.selectGoal,
-		bodyWeight: this.state.bodyWeight,
-		diet: this.state.valueDiet,
-		gender: this.state.gender,
-
+		number: this.state.number,
+		message: this.state.message
 	  };
 	  emailjs
-	  .send('contact_service', 'nutrition_form', template, 'user_Sl8ogEvceS5grzBjkpp70')
+	  .send('service_iei0d1o', 'nutri_balance', template, 'user_laV5Gr5gnJh9VTizBeaYW')
 	  .then((result) => {
 		console.log(result.text);
 		alert('Thank you for contating us, NutriBalanc team will come back as soon we review you appication.')

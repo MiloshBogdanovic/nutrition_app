@@ -49,15 +49,14 @@ ul {
     width: 100px;
     opacity: 0.8;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 740px) {
     .icon  {
         width: 70px;
         padding: 5%;
         opacity: 0.8;
     }
     .socal-contact{
-        width: 50%;
-        margin-left: 70%;
+       display: none;
     }
    ul{
        width: 40%;
